@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(163,163,163);
+    background: radial-gradient(circle, rgba(163,163,163,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.fizz-buzz {
+    color: rgb(255, 230, 0);
+    animation:zoom 1s linear 0s infinite normal;
+}
+
+@keyframes zoom {
+    0%
+    {
+        transform: scale(1); 
+    }
+    50%
+    { 
+        transform: scale(1.2); 
+    }
+    100%
+    { 
+        transform: scale(1); 
+    }
+}
+
+.fizz {
+    color: lightgreen;
+}
+
+.buzz {
+    color: lightpink;
+}
